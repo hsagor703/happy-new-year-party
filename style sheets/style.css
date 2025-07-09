@@ -1,0 +1,191 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* google font  */
+.merriweather-font{
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:"wdth" 100;
+}
+
+
+.inter-font{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* shared style start */
+.text-center{
+  text-align: center;
+}
+/* shared style ends */
+
+/* banner section start here */
+.banner-text-1{
+    font-size: 32px;
+    color: #ffffff;
+
+}
+.banner-text-2, .banner-text-3{
+    font-size: 62px;
+    color: #ffffff;
+}
+
+.banner-body{
+    position: relative;
+    text-align: center;
+}
+
+.b-body{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/* banner section ends here */
+
+/* offer section start here  */
+.offer-text-1{
+  color: #ff0000;
+  font-weight: bold;
+  font-size: 88px;
+}
+.offer-text-2{
+  color: #ff0000;
+  font-weight: 500;
+  font-size: 22px;
+}
+.offer-text-3{
+  color: #070211;
+  font-weight: bold;
+  font-size: 48px;
+}
+
+.offer-img{
+  margin-bottom: 120px;
+}
+/* offer section ends here  */
+
+/* midnight section start here  */
+.mid-night-section{
+  position: relative;
+  margin-bottom: 120px;
+}
+
+.mid-night-body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* margin-top: -220px; */
+}
+
+.mid-night-text-1{  
+  color: #ffffff;
+  font-size: 64px;
+  font-weight: 900;
+}
+.mid-night-text-2{  
+  font-size: 18px;
+  color: #ffffff;
+}
+.mid-night-text-3{  
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+}
+/* midnight section start here  */
+
+/* invite section start here  */
+.invite-section{
+  max-width: 1320px;
+  margin: 0 auto;
+  
+
+}
+ .invite-body{
+  padding: 102px 0 108px 0;
+  /* margin-top: 120px 0 108px 0; */
+  border-radius: 16px;
+    /* margin: 50px 350px 120px 350px; */
+    /* max-width: 1320px; */
+  background-image: linear-gradient(to top, rgba(255,0,0,0), rgb(207, 158, 158));
+ }
+
+
+ .text-red{
+  color: #ff0000;
+ }
+ .invite-text{
+  color: #070211;
+  font-weight: 600;
+  font-size: 32px;
+  margin: 5px;
+ }
+
+ .invite-btn{
+  background-color: #ff0000;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 16px 32px;color: #ffffff;
+  margin: 48px 0 120px 0;
+ }
+/* invite section ends here  */
+
+/* best offer section start here */
+.best-offer-section{
+  display: flex;
+  text-align: center;
+  max-width: 1320px;
+  margin: 0 auto;
+  justify-items: center;
+  margin-top: 122px;
+  gap: 80px;
+}
+
+.offer-items-1{
+  text-align: left;
+}
+
+.offer-name-1{
+  font-size: 24px;
+}
+
+.offer-sub-name-1{
+  color: #070211;
+  font-size: 48px;
+  font-weight: 900;
+}
+ 
+.offer-description-1{
+  font-size: 20px;
+  color: #070211;
+}
+
+.offer-2-img{
+  padding: 50px;
+  border: 15px solid red;
+  border-radius: 100%;
+}
+
+.offer-items-3{
+  text-align: left;
+  padding-bottom: 120px;
+}
+
+.offer-name-3{
+  font-size: 48px;
+  font-weight: bold;
+}
+
+best offer section ends here
