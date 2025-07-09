@@ -26,6 +26,10 @@
 /* shared style ends */
 
 /* banner section start here */
+.banner-section{
+  margin-top: 50px;
+}
+
 .banner-text-1{
     font-size: 32px;
     color: #ffffff;
@@ -88,6 +92,10 @@
   /* margin-top: -220px; */
 }
 
+.mid-night-column-1{
+  text-align: left;
+}
+
 .mid-night-text-1{  
   color: #ffffff;
   font-size: 64px;
@@ -101,6 +109,7 @@
   color: #ffffff;
   font-size: 20px;
   font-weight: bold;
+  padding-left: 20px;
 }
 /* midnight section start here  */
 
@@ -319,3 +328,50 @@
 
 }
 /* subscribe section ends here  */
+
+/* footer section start here  */
+.footer-section{
+  background-color: #070211;
+  max-width: 1600px;
+  margin: 0 auto;
+  color: #ffffff;
+}
+
+.contact-section{
+  margin: 120px 275px 0 140px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.address, .contact-website{
+  padding: 120px 0 50px 0;
+}
+
+
+.channel-details{
+  margin: 0 140px 120px 140px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.common-hr{
+  width: 1320px;
+  margin: 0 auto;
+  opacity: 0.1;
+}
+
+.icon-img{
+  margin: 48px 24px;
+}
+
+.channel-details p{
+  padding: 50px 0 120px 0;
+
+}
+
+
+/* footer section ends here  */
