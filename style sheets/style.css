@@ -217,7 +217,7 @@
 .holiday-img{
   display: flex;
   text-align: justify;
-  margin-bottom: 50px;
+  margin-bottom: 120px;
 }
 
 .img-div-1{
@@ -236,3 +236,34 @@
 }
 
 /* holiday section ends here  */
+
+/* gift section start here  */
+.gift-section{
+  max-width: 1320px;
+  margin: 0 auto;
+}
+
+.gift-title{
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.gift-sub-title{
+  font-size: 48px;
+  font-weight: 900;
+  color: #070211;
+}
+
+.gift-decription{
+  font-size: 20px;
+  color: #070211;
+}
+
+.gift-items{
+  padding: 40px 0 120px 0;
+}
+
+.gift-items .gift-item{
+  padding: 0 13px 13px 0;
+}
+/* gift section ends here  */
