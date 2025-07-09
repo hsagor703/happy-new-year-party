@@ -169,7 +169,8 @@
  
 .offer-description-1{
   font-size: 20px;
-  color: #070211;
+  color: rgba(7, 2, 17, 0.6);
+
 }
 
 .offer-2-img{
@@ -206,7 +207,7 @@
 .holiday-decription{
   font-size: 20px;
   font-weight: 500;
-  color: #070211;
+    color: rgba(7, 2, 17, 0.6);
 }
 
 .holiday-section{
@@ -254,9 +255,10 @@
   color: #070211;
 }
 
-.gift-decription{
+.gift-description{
   font-size: 20px;
-  color: #070211;
+    color: rgba(7, 2, 17, 0.6);
+
 }
 
 .gift-items{
@@ -267,3 +269,53 @@
   padding: 0 13px 13px 0;
 }
 /* gift section ends here  */
+
+/* subscribe section start here  */
+.subscribe-section{
+  max-width: 1320px;
+  margin: 0 auto;
+  background-color: rgba(255, 0, 0, 0.05);
+  margin-bottom: 120px;
+}
+
+.subscribe-img{
+  margin-top: 80px;
+
+}
+
+.subscribe-title{
+  color: #070211;
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.subscribe-description{
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+}
+
+.subscribe-input{
+  margin: 20px 0 80px 0;
+  padding: 23px;
+  width: 480px;
+  border: none;
+  border-radius: 50px 0px 0px 50px;
+}
+
+.subscribe-btn{
+  width: 180px;
+  padding: 8px;
+  font-size: 20px;
+  font-weight: 600;
+  border: none;
+  background-color: #ff0000;
+  color: #ffffff;
+  border-radius: 0 50px 50px 0;
+}
+
+.subscribe-input::placeholder{
+  font-size: 18px;
+  color: rgba(7, 2, 17, 0.6);
+
+}
+/* subscribe section ends here  */
