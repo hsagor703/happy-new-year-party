@@ -189,3 +189,50 @@
 }
 
 /* best offer section ends here */
+
+/* holiday section start here  */
+.holiday-title{
+  color: #070211;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.holiday-name{
+  color: #070211;
+  font-size: 72px;
+  font-weight: 900;
+}
+
+.holiday-decription{
+  font-size: 20px;
+  font-weight: 500;
+  color: #070211;
+}
+
+.holiday-section{
+  max-width: 1320px;
+  margin: 0 auto;
+}
+
+.holiday-img{
+  display: flex;
+  text-align: justify;
+  margin-bottom: 50px;
+}
+
+.img-div-1{
+}
+
+.holiday-img-1{
+  position: relative;
+  top: 200px;
+  /* box-shadow: 10px 19px 10px 10px #070211; */
+
+}
+
+.holiday-img-3{
+  position: relative;
+  top: -100px;
+}
+
+/* holiday section ends here  */
