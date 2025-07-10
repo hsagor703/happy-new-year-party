@@ -36,7 +36,8 @@
 
 }
 .banner-text-2, .banner-text-3{
-    font-size: 62px;
+    font-size: 72px;
+    font-weight: 900;
     color: #ffffff;
 }
 
@@ -50,8 +51,10 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    line-height: 80px;
 }
 /* banner section ends here */
+
 
 /* offer section start here  */
 .offer-text-1{
@@ -100,10 +103,12 @@
   color: #ffffff;
   font-size: 64px;
   font-weight: 900;
+  line-height: 80px;
 }
 .mid-night-text-2{  
   font-size: 18px;
-  color: #ffffff;
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 30px;
 }
 .mid-night-text-3{  
   color: #ffffff;
